@@ -1,0 +1,177 @@
+/*Main Page Styles*/
+
+/*Import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+/*ID Selectors*/
+
+#logo {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+}
+
+#titleText {
+    display: inline-block;
+    vertical-align:top;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+#times {
+    border-bottom: 3px solid rgb(112, 146, 190);
+}
+
+#activities {
+    border-bottom: 3px solid rgb(112, 146, 190);
+}
+
+/*Element Selectors*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+    margin: 0px;
+    color:rgb(112, 146, 190);
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+figcaption {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    color:aliceblue;
+}
+
+/*Class Selectors*/
+
+.circularPhoto {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+}
+
+.noWhiteSpace {
+    font-size: 0em;
+}
+
+.blueBackground {
+    background-color: #2267C0;
+    color:aliceblue;
+}
+
+.blueBackgroundTechnology {
+    background-image: url(../Assets/Images/technologyBlueBackground.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    color:aliceblue;
+    border-top: 2px solid rgb(112, 146, 190);
+    border-bottom: 2px solid rgb(112, 146, 190);
+    font-family: "Mukta", sans-serif;
+}
+
+.buttonRectangular {
+    border: rgb(112, 146, 190) 1px solid;
+    border-bottom: 0px;
+    color: rgb(112, 146, 190);
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    vertical-align:top;
+}
+
+.buttonRectangular:hover {
+    background-color: #367CD7;
+    color: aliceblue;
+}
+
+  .buttonCircular {
+    border: #2267C0 4px solid;
+    border-radius: 10px;
+    color: #2267C0;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-right: 65px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #7092BE;
+    vertical-align:top;
+}
+
+.buttonCircular:hover {
+    background-color: #2267C0;
+    color: aliceblue;
+}
+
+.titleSize {
+    font-size: 72px;
+}
+
+.paddingRegular {
+    padding: 10px;
+}
+
+.marginRegularHeading{
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.marginRegularParagraph{
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.marginRegularBottom{
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.width250{
+    width: 250px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
